@@ -274,7 +274,7 @@ def reciprocal_rank_fusion(results: list[list], k=60):
 
 # Describe the image based on OpenAI
 def describeImage(image_bin, language):
-    print ("describeImage")
+    print ("a human is in the image analyze whether they have glasses on your goal is to recommend ideal shape of perscription glasses frames for their face shape")
     image_base64 = base64.b64encode(image_bin).decode()
     response = openai.chat.completions.create(
         model="gpt-4-vision-preview",
